@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+} 
+
+body {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 43.5vw;
+    position: relative;
+    background-image: url("../img/star-wars-header.png");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+header aside img.star-header {
+    max-width: 23.8vw;
+    position: absolute;
+    left: 19.1vw;
+    top: 23.6vw;
+}
+
+header aside img.wars-header {
+    max-width: 26.1vw;
+    position: absolute;
+    top: 23.6vw;
+    left: 64.8vw;
+}
+
+header aside img.kylo-header {
+    max-width: 70.4vw;
+    position: absolute;
+    top: 0;
+    left: 10vw;
+}
+
+header aside.criar-legiao {
+    position: absolute;
+    top: 33.4vw;
+    left: 79.2vw;
+}
+
+header aside p.borda-legiao {
+    border-bottom: 2px solid #000;
+    padding-bottom: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+header aside p span.legiao {
+    font-weight: bold;
+}
+
+header aside p.grupo-quatro {
+    font-size: 0.9em;
+}
+
+header aside p span.parte-grupo-quatro {
+    font-size: 1.5em;
+}
+
+header aside p span.grupo-quatro-nav {
+    background-color: #a0afab;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    padding: 1px 3px 0 2px;
+    font-size: 5pt;
+}
