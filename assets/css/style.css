@@ -15,8 +15,7 @@ body {
 header {
     height: 43.5vw;
     position: relative;
-    background-image: url("../img/star-wars-header.png");
-    background-repeat: no-repeat;
+    background: url("../img/star-wars-header.png") no-repeat center;
     background-size: 100vw;
 }
 
@@ -71,4 +70,63 @@ header aside p span.grupo-quatro-nav {
     font-weight: 900;
     padding: 1px 3px 0 2px;
     font-size: 5pt;
+}
+
+main aside.star-wars-robot {
+    height: 75.1vw;
+    background: url("../img/star-wars-robot.png") no-repeat left;
+    background-size: auto 75.1vw;
+    position: relative;
+}
+
+main aside div.stormtrooper-red {
+    height: 30.4vw;
+    width: 20.7vw;
+    background-image: url("../img/stormtrooper-red.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40.6vw;
+    left: 14.5vw;
+}
+
+/* main aside div h3 {
+    position: absolute;
+    top: 5.1vw;
+    left: 5vw;
+    font-size: 3.125em;
+    font-weight: 600;
+    text-align: right;
+    color: #fff;
+    border: 1px solid blue;
+} */
+
+main aside div.sobre-o-jogo {
+    width: 49.5vw;
+    height: 13vw;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    border: 1px solid blue;
+}
+
+main aside div.sobre-o-jogo div h3 {
+    text-align: right;
+}
+
+main aside div.sobre-o-jogo div div.separador {
+    margin: 15px 0 15px 255px;
+    width: 7.8vw;
+    border-bottom: 2px solid #000;
+}
+
+main aside div.sobre-o-jogo div p {
+    height: 7vw;
+    width: 28.6vw;
+    font-size: 20px;
+    text-align: right;
+}
+
+main aside div.sobre-o-jogo img {
+    height: 12.8vw;
+    width: 20.3vw;
 }
