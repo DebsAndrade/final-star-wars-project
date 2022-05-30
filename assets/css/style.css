@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     border: none;
+    list-style: none;
+    text-decoration: none;
 } 
 
 body {
@@ -76,7 +78,6 @@ main aside.star-wars-robot {
     height: 75.1vw;
     background: url("../img/star-wars-robot.png") no-repeat left;
     background-size: auto 75.1vw;
-    position: relative;
 }
 
 main aside div.stormtrooper-red {
@@ -87,18 +88,50 @@ main aside div.stormtrooper-red {
     position: absolute;
     top: 40.6vw;
     left: 14.5vw;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-/* main aside div h3 {
-    position: absolute;
-    top: 5.1vw;
-    left: 5vw;
-    font-size: 3.125em;
-    font-weight: 600;
+main aside div.stormtrooper-red h3 {
+    font-size: 50px;
+    font-weight: 400;
+    padding: 4.17vw 5.05vw;
+}
+
+main aside div.stormtrooper-red p {
+    font-size: 20px;
+    font-weight: 300;
+    padding: 0 1.72vw 0 1.67vw;
+    text-align: left;
+    letter-spacing: 0;
+}
+
+main aside div.stormtrooper-red a {
+    color: inherit;
+    border: 2px solid #fff;
+    width: 10.42vw;
+    height: 2.6vw;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2.6vw;
+    border-radius: 5px;
+    font-weight: 300;
+    margin-top: 3vw;
+}
+
+main aside div.stormtrooper-red p.test-update {
+    font-size: 10px;
+    font-weight: 300;
     text-align: right;
-    color: #fff;
-    border: 1px solid blue;
-} */
+    width: 100%;
+    display: block;
+    line-height: 14px;
+    padding-right: 0.52vw;
+    margin-top: 1.82vw;
+}
 
 main aside div.sobre-o-jogo {
     width: 49.5vw;
@@ -106,17 +139,24 @@ main aside div.sobre-o-jogo {
     display: flex;
     justify-content: space-between;
     position: absolute;
-    border: 1px solid blue;
+    left: 43.1vw;
+    top: 58vw;
 }
 
 main aside div.sobre-o-jogo div h3 {
     text-align: right;
+    font-size: 30px;
+    font-weight: bold;  
 }
 
-main aside div.sobre-o-jogo div div.separador {
-    margin: 15px 0 15px 255px;
+.separador {
+    height: 2px;
+    background-color: #000;
+}
+
+main aside div.sobre-o-jogo div div.separador-sobre-o-jogo {
+    margin: 0.8vw 0 0.8vw 20.8vw;
     width: 7.8vw;
-    border-bottom: 2px solid #000;
 }
 
 main aside div.sobre-o-jogo div p {
@@ -124,9 +164,74 @@ main aside div.sobre-o-jogo div p {
     width: 28.6vw;
     font-size: 20px;
     text-align: right;
+    font-weight: 400;
+    line-height: 27px;
+    padding-top: 2.1vw;
 }
 
 main aside div.sobre-o-jogo img {
     height: 12.8vw;
     width: 20.3vw;
+}
+
+main aside div.separador-estrutura-de-jogo {
+    width: 78.22vw;
+    position: absolute;
+    left: 14.5vw;
+    top: 76.6vw;
+    height: 5px;
+    background-color: #707070;
+}
+
+main aside div.lord-sith img {
+    max-width: 44.06vw;
+    position: absolute;
+    top: 77.97vw;
+    left: 14.5vw;
+}
+
+main aside div.estrutura-de-jogo {
+    max-width: 26.93vw;
+    position: absolute;
+    top: 81.35vw;
+    left: 44.22vw;
+}
+
+main aside div.estrutura-de-jogo h2 {
+    font-size: 70px;
+    padding-left: 6.3vw;
+    color: #000;
+    font-weight: 600;
+    text-align: right;
+    line-height: 3.65vw;
+    padding-bottom: 2.1vw;
+}
+
+main aside div.estrutura-de-jogo h2 span {
+    font-weight: 900;
+}
+
+main aside div.estrutura-de-jogo ul {
+    width: 100%;
+    text-align: right;
+    padding-right: 0.94vw;
+}
+
+main aside div.estrutura-de-jogo ul li {
+    font-size: 25px;
+    margin-bottom: 1.56vw;
+    line-height: 2.14vw;
+    padding-right: 0.98vw;
+}
+
+main aside div.estrutura-de-jogo ul li:hover {
+    background-color: #D74430;
+    color: #fff;
+}
+
+main aside div.jedi-rey img {
+    max-width: 20.73vw;
+    position: absolute;
+    top: 82.86vw;
+    right: 7.29vw;
 }
