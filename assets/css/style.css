@@ -51,7 +51,7 @@ header aside.criar-legiao {
 }
 
 header aside p.borda-legiao {
-    border-bottom: 2px solid #000;
+    border-bottom: 0.1vw solid #000;
     padding-bottom: 0.8em;
     margin-bottom: 0.8em;
 }
@@ -61,19 +61,19 @@ header aside p span.legiao {
 }
 
 header aside p.grupo-quatro {
-    font-size: 0.9em;
+    font-size: 0.75vw;
 }
 
 header aside p span.parte-grupo-quatro {
-    font-size: 1.5em;
+    font-size: 1.25vw;
 }
 
 header aside p span.grupo-quatro-nav {
     background-color: #a0afab;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
-    padding: 1px 3px 0 2px;
-    font-size: 5pt;
+    padding: 0.05vw 0.16vw 0 0.10vw;
+    font-size: 0.3vw;
 }
 
 /* MAIN */
@@ -84,11 +84,12 @@ main aside.star-wars-robot {
     background-size: auto 75.1vw;
 }
 
-main aside div.stormtrooper-red {
+main aside.star-wars-robot div.stormtrooper-red {
     height: 30.4vw;
     width: 20.7vw;
     background-image: url("../img/stormtrooper-red.png");
     background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
     top: 40.6vw;
     left: 14.5vw;
@@ -99,45 +100,51 @@ main aside div.stormtrooper-red {
     align-items: center;
 }
 
-main aside div.stormtrooper-red h3 {
-    font-size: 50px;
+main aside.star-wars-robot div.stormtrooper-red h3 {
+    font-size: 2.6vw;
     font-weight: 400;
     padding: 4.17vw 5.05vw;
 }
 
-main aside div.stormtrooper-red p {
-    font-size: 20px;
+main aside.star-wars-robot div.stormtrooper-red p {
+    font-size: 1.04vw;
     font-weight: 300;
     padding: 0 1.72vw 0 1.67vw;
     text-align: left;
     letter-spacing: 0;
 }
 
-main aside div.stormtrooper-red a {
+main aside.star-wars-robot div.stormtrooper-red a {
     color: #fff;
-    border: 2px solid #fff;
+    border: 0.15vw solid #fff;
     width: 10.42vw;
     height: 2.6vw;
-    font-size: 20px;
+    font-size: 1.04vw;
     font-weight: 400;
     line-height: 2.6vw;
-    border-radius: 5px;
+    border-radius: 0.26vw;
     font-weight: 300;
     margin-top: 3vw;
+    transition: 0.3s ease-in-out;
 }
 
-main aside div.stormtrooper-red p.test-update {
-    font-size: 10px;
+main aside.star-wars-robot div.stormtrooper-red a:hover {
+    background-color: #fff;
+	color: #D74430;
+}
+
+main aside.star-wars-robot div.stormtrooper-red p.test-update {
+    font-size: 0.6vw;
     font-weight: 300;
     text-align: right;
     width: 100%;
     display: block;
-    line-height: 14px;
+    line-height: 0.73vw;
     padding-right: 0.52vw;
     margin-top: 1.82vw;
 }
 
-main aside div.sobre-o-jogo {
+main aside.star-wars-robot div.sobre-o-jogo {
     width: 49.5vw;
     height: 13vw;
     display: flex;
@@ -147,38 +154,38 @@ main aside div.sobre-o-jogo {
     top: 58vw;
 }
 
-main aside div.sobre-o-jogo div h3 {
+main aside.star-wars-robot div.sobre-o-jogo div h3 {
     text-align: right;
-    font-size: 30px;
+    font-size: 1.56vw;
     font-weight: bold;  
 }
 
 .separador {
-    height: 2px;
+    height: 0.10vw;
     background-color: #000;
 }
 
-main aside div.sobre-o-jogo div div.separador-sobre-o-jogo {
+main aside.star-wars-robot div.sobre-o-jogo div div.separador-sobre-o-jogo {
     margin: 0.8vw 0 0.8vw 20.8vw;
     width: 7.8vw;
 }
 
-main aside div.sobre-o-jogo div p {
+main aside.star-wars-robot div.sobre-o-jogo div p {
     height: 7vw;
     width: 28.6vw;
-    font-size: 20px;
+    font-size: 1.04vw;
     text-align: right;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 1.41vw;
     padding-top: 2.1vw;
 }
 
-main aside div.sobre-o-jogo img {
+main aside.star-wars-robot div.sobre-o-jogo img {
     height: 12.8vw;
     width: 20.3vw;
 }
 
-main aside div.separador-estrutura-de-jogo {
+main aside.star-wars-robot div.separador-estrutura-de-jogo {
     width: 78.22vw;
     position: absolute;
     left: 14.5vw;
@@ -187,22 +194,24 @@ main aside div.separador-estrutura-de-jogo {
     background-color: #707070;
 }
 
-main aside div.lord-sith img {
+main aside.star-wars-robot div.lord-sith img {
     max-width: 44.06vw;
     position: absolute;
     top: 77.97vw;
     left: 14.5vw;
+    z-index: 1;
 }
 
-main aside div.estrutura-de-jogo {
+main aside.star-wars-robot div.estrutura-de-jogo {
     max-width: 26.93vw;
     position: absolute;
     top: 81.35vw;
     left: 44.22vw;
+    z-index: 2;
 }
 
-main aside div.estrutura-de-jogo h2 {
-    font-size: 70px;
+main aside.star-wars-robot div.estrutura-de-jogo h2 {
+    font-size: 3.65vw;
     padding-left: 6.3vw;
     color: #000;
     font-weight: 600;
@@ -211,45 +220,45 @@ main aside div.estrutura-de-jogo h2 {
     padding-bottom: 2.1vw;
 }
 
-main aside div.estrutura-de-jogo h2 span {
+main aside.star-wars-robot div.estrutura-de-jogo h2 span {
     font-weight: 900;
 }
 
-main aside div.estrutura-de-jogo ul {
+main aside.star-wars-robot div.estrutura-de-jogo ul {
     width: 100%;
     text-align: right;
     padding-right: 0.94vw;
 }
 
-main aside div.estrutura-de-jogo ul li {
-    font-size: 25px;
+main aside.star-wars-robot div.estrutura-de-jogo ul li {
+    font-size: 1.30vw;
     margin-bottom: 1.56vw;
     line-height: 2.14vw;
     padding-right: 0.98vw;
 }
 
-main aside div.estrutura-de-jogo ul li:hover {
+main aside.star-wars-robot div.estrutura-de-jogo ul li:hover {
     background-color: #d74430;
     color: #fff;
 }
 
-main aside div.jedi-rey img {
+main aside.star-wars-robot div.jedi-rey img {
     max-width: 20.73vw;
     position: absolute;
     top: 82.86vw;
     right: 7.29vw;
+    z-index: 1;
 }
 
 main aside.star-wars-atributos {
     background-color: #2d2d2d;
     position: relative;
     height: 122.14vw;
-    z-index: -1;
 }
 
 main aside.star-wars-atributos h3.atributos {
     color: #fff;
-    font-size: 50px;
+    font-size: 2.60vw;
     position: absolute;
     top: 9.3vw;
     left: 14.5vw;
@@ -264,19 +273,80 @@ main aside.star-wars-atributos div.galeria-fotos {
     display: flex;
 }
 
-main aside.star-wars-atributos div.galeria-fotos img.game-review-star-wars {
-    max-width: 42.92vw;
+main aside.star-wars-atributos div.galeria-fotos div.game-review-star-wars {
+    width: 42.92vw;
     height: 26.15vw;
+    position: relative;
 }
 
-main aside.star-wars-atributos div.galeria-fotos div {
-    max-width: 42.7vw;
+main aside.star-wars-atributos div.galeria-fotos div.game-review-star-wars img {
+    width: 42.92vw;
+}
+
+main aside.star-wars-atributos div.galeria-fotos div.game-review-star-wars div.galeria-fotos-interna {
+    width: 45.06vw;
+    height: 27.45vw;
+    position: absolute;
+    top: -0.65vw;
+    left: -1.07vw;
+    transform: scale(0);
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
+
+main aside.star-wars-atributos div.galeria-fotos div.game-review-star-wars:hover > .galeria-fotos-interna {
+    transform: scale(1);
+}
+
+main aside.star-wars-atributos div.galeria-fotos > div {
+    width: 42.7vw;
     display: flex;
     flex-wrap: wrap;
 }
 
-main aside.star-wars-atributos div.galeria-fotos div img.galeria-fotos-game {
-    max-width: 21.35vw;
+main aside.star-wars-atributos div.galeria-fotos div div.galeria-fotos-externa {
+    width: 21.35vw;
+    max-height: 13.07vw;
+    position: relative;
+}
+
+main aside.star-wars-atributos div.galeria-fotos div div.galeria-fotos-externa img {
+    width: 21.35vw;
+}
+
+main aside.star-wars-atributos div.galeria-fotos div div.galeria-fotos-externa div.galeria-fotos-interna {
+    width: 22.4vw;
+    height: 14.01vw;
+    position: absolute;
+    top: -0.47vw;
+    left: -0.53vw;
+    transform: scale(0);
+    transition: 0.3s ease-in-out;
+    color: #fff;
+}
+
+main aside.star-wars-atributos div.galeria-fotos div div.galeria-fotos-externa:hover > .galeria-fotos-interna {
+    transform: scale(1);
+}
+
+.pink {
+    background-color: rgba(215, 53, 184, .7);
+}
+
+.red {
+    background-color: rgba(215, 68, 48, .7);
+}
+
+.yellow {
+    background-color: rgba(217, 138, 2, .7);
+}
+
+.green {
+    background-color: rgba(0, 215, 40, .7);
+}
+
+.blue {
+    background-color: rgba(51, 48, 215, .7);
 }
 
 main aside.star-wars-atributos div img.hierarquia {
@@ -287,10 +357,10 @@ main aside.star-wars-atributos div img.hierarquia {
     left: 7.29vw;
 }
 
-main aside.star-wars-atributos p {
+main aside.star-wars-atributos > p {
     max-width: 42.29vw;
     color: #fff;
-    font-size: 19px;
+    font-size: 1.04vw;
     font-weight: 300;
     line-height: 1.41vw;
     position: absolute;
@@ -308,7 +378,7 @@ main aside.star-wars-atributos div img.stormtrooper-capa-preta {
 
 main aside.star-wars-atributos h3.como-jogar {
     color: #fff;
-    font-size: 50px;
+    font-size: 2.60vw;
     position: absolute;
     top: 110.55vw;
     left: 43.23vw;
@@ -337,7 +407,7 @@ main aside.escolha-o-jogo div.posicionamento-escolha-o-jogo {
 }
 
 main aside.escolha-o-jogo div.como-jogar-caixas-escolhas p {
-    font-size: 50px;
+    font-size: 2.60vw;
     font-weight: 300;
     color: #000;
     line-height: 3.65vw;
@@ -348,15 +418,16 @@ main aside.escolha-o-jogo div.como-jogar-caixas-escolhas a {
     margin-top: 1.93vw;
     margin-bottom: 1.98vw;
     background-color: #000;
-    font-size: 30px;
+    font-size: 1.56vw;
     letter-spacing: 0.1vw;
     font-weight: 300;
     line-height: 3.65vw;
     color: #fff;
+    transition: ease-in-out 0.3s;
 }
 
 main aside.escolha-o-jogo div.como-jogar-caixas-escolhas p:nth-child(3) {
-    font-size: 19px;
+    font-size: 1.4vw;
     letter-spacing: 0.1vw;
     font-weight: 300;
     line-height: 1.41vw;
@@ -367,24 +438,27 @@ main aside.escolha-o-jogo div.como-jogar-caixas-escolhas p:nth-child(3) {
 
 main aside.escolha-o-jogo div div.separador-escolha {
     width: 5.21vw;
-    height: 5px;
+    height: 0.26vw;
     background-color: #000;
     position: relative;
     left: 4.35vw;
+    transition: ease-in-out 0.3s;
 }
 
-main aside.escolha-o-jogo div.como-jogar-caixas-escolhas p.escolha-selecionada {
+main aside.escolha-o-jogo div.como-jogar-caixas-escolhas p {
+    transition: ease-in-out 0.3s;
+}
+
+main aside.escolha-o-jogo div.como-jogar-caixas-escolhas:hover p:first-child {
     font-weight: 900;
 }
 
-main aside.escolha-o-jogo div.como-jogar-caixas-escolhas a:hover {
+main aside.escolha-o-jogo div.como-jogar-caixas-escolhas:hover a {
     box-shadow: inset #d74430 13.54vw 0;
-    transition: ease-in-out 0.5s;
 }
 
-main aside.escolha-o-jogo div.como-jogar-caixas-escolhas a:hover ~ .separador-escolha {
+main aside.escolha-o-jogo div.como-jogar-caixas-escolhas:hover > div.separador-escolha {
     box-shadow: inset #d74430 5.21vw 0;
-    transition: ease-in-out 0.5s;
 }
 
 /* FOOTER */
@@ -408,7 +482,7 @@ footer section {
 footer section h3 {
     max-width: 15.26vw;
     height: 2.6vw;
-    font-size: 50px;
+    font-size: 2.60vw;
     font-weight: 800;
     line-height: 3.65vw;
     letter-spacing: 0.1vw;
@@ -420,7 +494,7 @@ footer section h3 {
 footer section p.aplicativo-footer {
     max-width: 27.92vw;
     height: 5vw;
-    font-size: 20px;
+    font-size: 1.04vw;
     font-weight: 300;
     line-height: 1.41vw;
     position: absolute;
@@ -428,8 +502,14 @@ footer section p.aplicativo-footer {
     left: 14.53vw;
 }
 
+
+footer section div a img {
+    width: 13.54vw;
+    height: 4vw;
+}
+
 footer section div a.google-image {
-    max-width: 13.54vw;
+    width: 13.54vw;
     height: 4vw;
     position: absolute;
     top: 18.75vw;
@@ -468,7 +548,7 @@ footer section div {
 footer section p.politicas-internacionais {
     max-width: 27.92vw;
     height: 6.04vw;
-    font-size: 20px;
+    font-size: 1.04vw;
     font-weight: 300;
     line-height: 1.41vw;
     letter-spacing: 0.02vw;
@@ -481,14 +561,19 @@ footer aside {
     max-width: 39.38vw;
     height: 50.3vw;
     position: absolute;
-    left: 57.5vw;
+    right: 7.29vw;
     top: 0.83vw;
+}
+
+footer aside img {
+    max-width: 39.38vw;
+    height: 50.3vw;
 }
 
 footer aside p {
     max-width: 19.48vw;
     height: 3.75vw;
-    font-size: 15px;
+    font-size: 0.78vw;
     font-weight: 300;
     line-height: 1.04vw;
     position: absolute;
