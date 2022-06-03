@@ -495,6 +495,12 @@ main aside.escolha-o-jogo {
     position: relative;
 }
 
+main aside.escolha-o-jogo div.posicionamento-escolha-o-jogo {
+    max-width: 63.96vw;
+    display: flex;
+    justify-content: space-around;
+}
+
 main aside.escolha-o-jogo div.como-jogar-caixas-escolhas {
     width: 13.54vw;
     height: 15.7vw;
@@ -503,12 +509,6 @@ main aside.escolha-o-jogo div.como-jogar-caixas-escolhas {
     position: relative;
     top: 4.84vw;
     left: 36.04vw;
-}
-
-main aside.escolha-o-jogo div.posicionamento-escolha-o-jogo {
-    max-width: 63.96vw;
-    display: flex;
-    justify-content: space-around;
 }
 
 main aside.escolha-o-jogo div.como-jogar-caixas-escolhas p {

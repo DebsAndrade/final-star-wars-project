@@ -203,15 +203,66 @@
     }
 
     main aside.star-wars-atributos div img.stormtrooper-capa-preta {
-        max-width: 60.53vw;
-        top: 350.87vw;
-        left: -24.71vw;
+        max-width: 100.8vw;
+        top: 341.87vw;
+        left: -41vw;
     }
 
     main aside.star-wars-atributos h3.como-jogar {
         font-size: 0.938rem;
         top: 351.46vw;
         left: 55.6vw;
+    }
+
+    main aside.escolha-o-jogo {
+        height: 129.6vw;
+    }
+
+    main aside.escolha-o-jogo div.posicionamento-escolha-o-jogo {
+        max-width: 38.93vw;
+        flex-direction: column;
+    }
+
+    main aside.escolha-o-jogo div.como-jogar-caixas-escolhas {
+        width: 38.93vw;
+        height: 34.5vw;
+        left: 51.2vw;
+        margin-bottom: 5.3vw;
+    }
+
+    main aside.escolha-o-jogo div.como-jogar-caixas-escolhas p {
+        font-size: 1.625rem;
+        line-height: 9.87vw;
+        letter-spacing: 0.14vw;
+    }
+
+    main aside.escolha-o-jogo div.como-jogar-caixas-escolhas a {
+        font-size: 0.938rem;
+        letter-spacing: 0.08vw;
+        line-height: 9.33vw;
+    }
+
+    main aside.escolha-o-jogo div.como-jogar-caixas-escolhas:hover a {
+        box-shadow: inset #d74430 38.93vw 0;
+    }
+
+    main aside.escolha-o-jogo div.como-jogar-caixas-escolhas p:nth-child(3) {
+        min-height: 3.2vw;
+        max-width: 33.6vw;
+        font-size: 0.875rem;
+        letter-spacing: 0.077vw;
+        line-height: 5.07vw;
+        margin-bottom: 0;
+    }
+
+    main aside.escolha-o-jogo div div.separador-escolha {
+        width: 16vw;
+        height: 1.33vw;
+        left: 11.6vw;
+    }
+
+    main aside.escolha-o-jogo div.como-jogar-caixas-escolhas:hover > div.separador-escolha {
+        box-shadow: inset #d74430 16vw 0;
     }
 
     /* FOOTER */
@@ -223,7 +274,6 @@
     footer section {
         max-width: 100vw;
         height: 180.8vw;
-        top: 0;
     }
 
     footer section h3 {
@@ -233,7 +283,7 @@
         line-height: 18.67vw;
         letter-spacing: 0.27vw;
         top: 12.13vw;
-        left: 6.22vw;
+        left: 10.22vw;
     }
 
     footer section p.aplicativo-footer {
@@ -306,8 +356,7 @@
         height: 9.87vw;
         font-size: 0.5rem;
         line-height: 2.93vw;
-        letter-spacing: 0.02vw;
-        right: 9.73vw;
-        top: 242.13vw;
+        right: 9.07vw;
+        bottom: -14.67vw;
     }
 }
