@@ -1,0 +1,103 @@
+@media (max-width: 600px) {
+
+    /* HEADER */
+
+    header aside.criar-legiao {
+        top: 34.93vw;
+        left: 76.24vw;
+        font-size: 0.563rem;
+        /* line-height: 4.27vw; */
+    }
+
+    header aside p.borda-legiao {
+        border-width: 0.8vw;
+        padding-bottom: 0.8em;
+        margin-bottom: 0.8em;
+    }
+
+    header aside p.grupo-quatro {
+        font-size: 0.5rem;
+    }
+
+    header aside p.grupo-quatro span.parte-grupo-quatro {
+        font-size: 0.8rem;
+    }
+
+    header aside p span.grupo-quatro-nav {
+        font-size: 2vw;
+    }
+
+    /* MAIN */
+
+    main aside.star-wars-robot {
+        height: 237.33vw;
+        background-size: auto 134.67vw;
+    }
+
+    main aside.star-wars-robot div.stormtrooper-red {
+        height: 87.47vw;
+        width: 59.2vw;
+        top: 58.13vw;
+        left: 30.4vw;
+        z-index: 2;
+    }
+
+    main aside.star-wars-robot div.stormtrooper-red h3 {
+        font-size: 1.75em;
+        line-height: 2.375rem;
+        padding: 12vw 13.6vw 0 14.93vw;
+    }
+
+    main aside.star-wars-robot div.stormtrooper-red p {
+        font-size: 0.875rem;
+        line-height: 5.07vw;
+        padding: 39.73vw 6.93vw 0 5.6vw;
+    }
+
+    main aside.star-wars-robot div.stormtrooper-red a {
+        width: 30.4vw;
+        height: 7.47vw;
+        font-size: 0.875rem;
+        line-height: 5.07vw;
+        border-radius: 1.33vw;
+    }
+
+    main aside.star-wars-robot div.stormtrooper-red p.test-update {
+        font-size: 0.5rem;
+        text-align: center;
+        display: block;
+        line-height: 2.13vw;
+    }
+
+    main aside.star-wars-robot div.sobre-o-jogo {
+        width: 80.53vw;
+        height: 83.04vw;
+        position: absolute;
+        left: 9.73vw;
+        top: 149.87vw;
+        z-index: 2;
+    }
+
+    main aside.star-wars-robot div.sobre-o-jogo div.sobre-o-jogo-texto {
+        position: absolute;
+        top: 38.71vw;
+        right: 0;
+        width: 100%;
+    }
+
+    main aside.star-wars-robot div.sobre-o-jogo div.sobre-o-jogo-texto p {
+        height: fit-content;
+        width: 80.53vw;
+        font-size: 14px;
+        line-height: 5.07vw;
+        background-color: antiquewhite;
+    }
+
+    main aside.star-wars-robot div.sobre-o-jogo img {
+        height: 35.2vw;
+        width: 59.73vw;
+        position: absolute;
+        top: 0;
+        left: 20.67vw;
+    }
+}
