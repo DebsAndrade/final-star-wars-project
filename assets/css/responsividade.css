@@ -188,7 +188,7 @@
     }
 
     main aside.star-wars-atributos div img.hierarquia {
-        max-width: 99.73vw;
+        max-width: 95.88vw;
         height: 59.99vw;
         top: 274.4vw;
         left: 0;
@@ -212,5 +212,102 @@
         font-size: 0.938rem;
         top: 351.46vw;
         left: 55.6vw;
+    }
+
+    /* FOOTER */
+
+    footer {
+        height: 255.47vw;
+    }
+
+    footer section {
+        max-width: 100vw;
+        height: 180.8vw;
+        top: 0;
+    }
+
+    footer section h3 {
+        width: 78.13vw;
+        height: 13.33vw;
+        font-size: 3.125rem;
+        line-height: 18.67vw;
+        letter-spacing: 0.27vw;
+        top: 12.13vw;
+        left: 6.22vw;
+    }
+
+    footer section p.aplicativo-footer {
+        max-width: 80.4vw;
+        height: 22.13vw;
+        font-size: 0.88rem;
+        line-height: 5.07vw;
+        letter-spacing: -0.1vw;
+        top: 30.13vw;
+        left: 9.73vw;
+    }
+
+    footer section div a img {
+        width: 38.93vw;
+        height: 11.47vw;
+    }
+
+    footer section div a.google-image {
+        width: 38.93vw;
+        height: 11.47vw;
+        top: 56.67vw;
+        left: 9.8vw;
+    }
+    
+    footer section div a.apple-image {
+        width: 38.93vw;
+        height: 11.47vw;
+        top: 56.67vw;
+        left: 51.4vw;
+    }
+
+    footer section div.separador-footer {
+        width: 80.53vw;
+        height: 1.33vw;
+        left: 9.67vw;
+        top: 72.67vw;
+    }
+
+    footer section img.footer-star-wars {
+        max-width: 44.4vw;
+        height: 21.69vw;
+        top: 83.15vw;
+        left: 27.73vw;
+    }
+    
+    footer section p.politicas-internacionais {
+        max-width: 80.4vw;
+        height: 21.07vw;
+        font-size: 0.88rem;
+        line-height: 5.07vw;
+        letter-spacing: -0.1vw;
+        top: 109.37vw;
+        left: 9.73vw;
+    }
+
+    footer aside {
+        max-width: 80.53vw;
+        height: 102.94vw;
+        right: 9.73vw;
+        top: 134.85vw;
+    }
+    
+    footer aside img {
+        max-width: 80.53vw;
+        height: 102.94vw;
+    }
+
+    footer aside p {
+        max-width: 80.53vw;
+        height: 9.87vw;
+        font-size: 0.5rem;
+        line-height: 2.93vw;
+        letter-spacing: 0.02vw;
+        right: 9.73vw;
+        top: 242.13vw;
     }
 }
