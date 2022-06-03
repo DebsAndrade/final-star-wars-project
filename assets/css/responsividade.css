@@ -174,17 +174,60 @@
         width: 80.53vw;
         flex-direction: column;
         top: 22.4vw;
-        border: 1px solid fuchsia;
     }
 
     main aside.star-wars-atributos div.galeria-fotos div.game-review-star-wars, main aside.star-wars-atributos div.galeria-fotos div div.galeria-fotos-externa {
         width: 79.73vw;
+        max-height: 48.8vw;
         height: 48.8vw;
     }
 
     main aside.star-wars-atributos div.galeria-fotos div.game-review-star-wars img,
     main aside.star-wars-atributos div.galeria-fotos div div.galeria-fotos-externa img {
         width: 79.73vw;
+        height: 48.8vw;
+    }
+
+    main aside.star-wars-atributos div.galeria-fotos div.game-review-star-wars div.galeria-fotos-interna,
+    main aside.star-wars-atributos div.galeria-fotos div div.galeria-fotos-externa div.galeria-fotos-interna {
+        width: 83.73vw;
+        height: 52.8vw;
+        top: -2vw;
+        left: -2vw;
+    }
+
+    main aside.star-wars-atributos div.galeria-fotos div.game-review-star-wars div.galeria-fotos-interna h4,
+    main aside.star-wars-atributos div.galeria-fotos div div.galeria-fotos-externa div.galeria-fotos-interna h4 {
+        width: 22.4vw;
+        height: 9.33vw;
+        font-size: 1.0625rem;
+        letter-spacing: 0.136vw;
+        line-height: 4.8vw;
+        top: 7.61vw;
+        left: 8.02vw;
+    }
+
+    main aside.star-wars-atributos div.galeria-fotos div.game-review-star-wars div.galeria-fotos-interna p,
+    main aside.star-wars-atributos div.galeria-fotos div div.galeria-fotos-externa div.galeria-fotos-interna p {
+        width: 64.8vw;
+        height: 16vw;
+        font-size: 0.9375rem;
+        line-height: 5.33vw;
+        letter-spacing: 0;
+        top: 22.4vw;
+        left: 8vw;
+    }
+
+    main aside.star-wars-atributos div.galeria-fotos div.game-review-star-wars div.galeria-fotos-interna a,
+    main aside.star-wars-atributos div.galeria-fotos div div.galeria-fotos-externa div.galeria-fotos-interna a {
+        width: 33.87vw;
+        height: 9.6vw;
+        font-size: 1.25rem;
+        line-height: 7.2vw;
+        letter-spacing: 0;
+        top: 39.2vw;
+        left: 3.2vw;
+        border: 0.8vw solid #fff;
     }
 
     main aside.star-wars-atributos div img.hierarquia {
