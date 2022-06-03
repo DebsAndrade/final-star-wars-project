@@ -49,9 +49,9 @@
     }
 
     main aside.star-wars-robot div.stormtrooper-red p {
-        font-size: 0.875rem;
+        font-size: 0.775rem;
         line-height: 5.07vw;
-        padding: 39.73vw 6.93vw 0 5.6vw;
+        padding: 7.73vw 9.93vw 0 8.67vw;
     }
 
     main aside.star-wars-robot div.stormtrooper-red a {
@@ -60,6 +60,7 @@
         font-size: 0.875rem;
         line-height: 5.07vw;
         border-radius: 1.33vw;
+        margin-top: 6.1vw;
     }
 
     main aside.star-wars-robot div.stormtrooper-red p.test-update {
@@ -67,6 +68,7 @@
         text-align: center;
         display: block;
         line-height: 2.13vw;
+        margin-left: -7vw;
     }
 
     main aside.star-wars-robot div.sobre-o-jogo {
@@ -85,12 +87,25 @@
         width: 100%;
     }
 
+    main aside.star-wars-robot div.sobre-o-jogo div h3 {
+        width: 28.50vw;
+        margin-left: 51.91vw;
+        font-size: 0.88rem;
+        font-weight: bold;  
+    }
+
+    main aside.star-wars-robot div.sobre-o-jogo div div.separador-sobre-o-jogo {
+        height: 0.8vw;
+        width: 38.66vw;
+        margin-left: 41.44vw;
+    }
+    
+
     main aside.star-wars-robot div.sobre-o-jogo div.sobre-o-jogo-texto p {
         height: fit-content;
         width: 80.53vw;
-        font-size: 14px;
+        font-size: 0.9rem;
         line-height: 5.07vw;
-        background-color: antiquewhite;
     }
 
     main aside.star-wars-robot div.sobre-o-jogo img {
@@ -99,5 +114,45 @@
         position: absolute;
         top: 0;
         left: 20.67vw;
+    }
+    
+    main aside.star-wars-robot div.separador-estrutura-de-jogo {
+        width: 80.53vw;
+        height: 1.20vw;
+        top: 237.07vw;
+        left: 9.73vw;
+    }
+
+    main aside.star-wars-robot div.lord-sith img {
+        max-width: 46.13vw;
+        top: 244.53vw;
+        left: 2.67vw;
+    }
+
+    main aside.star-wars-robot div.estrutura-de-jogo h2 {
+        width: 22.67vw;
+        font-size: 0.84rem;
+        padding-left: 2.3vw;
+        position: absolute;
+        top: 162.53vw;
+        left: 0.88vw;
+    }
+
+    main aside.star-wars-robot div.estrutura-de-jogo ul {
+        width: 38.93vw;
+        position: absolute;
+        top: 173.2vw;
+        left: -14.13vw;
+    }
+
+    main aside.star-wars-robot div.estrutura-de-jogo ul li {
+        font-size: 0.5rem;
+        line-height: 2.93vw;
+    }
+
+    main aside.star-wars-robot div.jedi-rey img {
+        max-width: 24.27vw;
+        top: 244.53vw;
+        left: 66.67vw;
     }
 }
