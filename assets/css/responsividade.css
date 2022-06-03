@@ -155,4 +155,62 @@
         top: 244.53vw;
         left: 66.67vw;
     }
+
+    main aside.star-wars-atributos {
+        height: 366.67vw;
+    }
+
+    main aside.star-wars-atributos h3.atributos {
+        font-size: 0.94rem;
+        line-height: 3.33vw;
+        letter-spacing: 0.12vw;
+        position: absolute;
+        top: 14.02vw;
+        left: 39.07vw;
+    }
+
+    main aside.star-wars-atributos div.galeria-fotos {
+        height: 245.33vw;
+        width: 80.53vw;
+        flex-direction: column;
+        top: 22.4vw;
+        border: 1px solid fuchsia;
+    }
+
+    main aside.star-wars-atributos div.galeria-fotos div.game-review-star-wars, main aside.star-wars-atributos div.galeria-fotos div div.galeria-fotos-externa {
+        width: 79.73vw;
+        height: 48.8vw;
+    }
+
+    main aside.star-wars-atributos div.galeria-fotos div.game-review-star-wars img,
+    main aside.star-wars-atributos div.galeria-fotos div div.galeria-fotos-externa img {
+        width: 79.73vw;
+    }
+
+    main aside.star-wars-atributos div img.hierarquia {
+        max-width: 99.73vw;
+        height: 59.99vw;
+        top: 274.4vw;
+        left: 0;
+    }
+
+    main aside.star-wars-atributos > p {
+        max-width: 60.73vw;
+        font-size: 0.5rem;
+        line-height: 2.93vw;
+        top: 334.39vw;
+        left: 30.4vw;
+    }
+
+    main aside.star-wars-atributos div img.stormtrooper-capa-preta {
+        max-width: 60.53vw;
+        top: 350.87vw;
+        left: -24.71vw;
+    }
+
+    main aside.star-wars-atributos h3.como-jogar {
+        font-size: 0.938rem;
+        top: 351.46vw;
+        left: 55.6vw;
+    }
 }
